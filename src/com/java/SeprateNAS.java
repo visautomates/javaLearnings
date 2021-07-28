@@ -16,6 +16,7 @@ public class SeprateNAS {
 		for (int i =0;i<data.length();i++) {
 			
 			if(Character.isAlphabetic(data.charAt(i))) {
+				
 				alpha.append(data.charAt(i));
 	
 			}else if(Character.isDigit(data.charAt(i))) {

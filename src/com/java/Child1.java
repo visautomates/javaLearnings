@@ -18,7 +18,7 @@ public class Child1 extends parent{
 	
 	 public void name() {
 		 
-		 System.out.println("my name is vishnu prasad");
+		 System.out.println("this is child");
 	 }
 
 }

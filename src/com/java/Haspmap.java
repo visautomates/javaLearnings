@@ -12,14 +12,23 @@ public class Haspmap {
 		value.put("Don",5);
 		value.put("rasc",3);
 		
-		System.out.println(value);
-		value.put("lax", 8);
-		value.remove("Don", 5);
+//		System.out.println(value);
+//		value.put("lax", 8);
+//		value.remove("Don", 5);
+//		
+//		System.out.println(value);
+		value.forEach((k,v) ->{
+			System.out.format("keys:%s, value :%d%n" , k,v);
+			});
+	
 		
-		System.out.println(value);
-		
-		
-		
+		/*
+		 * for(String name : value.keySet()) { System.out.println("value = "+name); }
+		 * for (Integer number : value.values()) {
+		 * 
+		 * System.out.println("Number = " +number); }
+		 */
+
 
 	}
 	

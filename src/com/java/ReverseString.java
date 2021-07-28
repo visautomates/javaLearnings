@@ -7,9 +7,9 @@ public class ReverseString {
     
 	public static void main(String[] args) {
  
-		System.out.println(revone("vishnu"));
-		System.out.println(revchar("love"));
-		UseStngBuff("life");
+		System.out.println(revone(" yob doog si siv"));
+		//System.out.println(revchar("love"));
+		//UseStngBuff("life");
 
 	}
 

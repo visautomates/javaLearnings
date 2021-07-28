@@ -4,7 +4,7 @@ public class parent {
 
 	
 	public void name() {
-		System.out.println("Myname is vishnu");
+		System.out.println("this is parent");
 	}
 	
 
