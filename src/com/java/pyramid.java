@@ -4,7 +4,7 @@ public class pyramid {
 
 	public static void main(String[] args) {
 		
-		int x, y,row = 5;
+		int x, y,row = 3;
 		for (x = 0; x < row ; x++) {
 
 			for (y = row - x; y > 1; y--) 
